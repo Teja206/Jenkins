@@ -7,7 +7,7 @@ pipeline {
                 echo 'Build jenkinsfile'
                 }
             }
-        }
+            
         stage('test') {
             steps {
                 echo 'Test the jenkinsfile'
@@ -17,5 +17,6 @@ pipeline {
             steps {
                 echo 'deploy the jenkinsfile'
             }
-        }   
+        } 
+    }
 }
